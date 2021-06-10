@@ -20,7 +20,17 @@ code {
 
 .lista {
   list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 .lista li {
+  min-height: 20px;
+  min-width: 20px;
+  height: 200px;
+  width: 200px;
+  background-color: grey;
+  border-radius: 50%;
   display: inline-block;
+  margin: 0px 30px;
 }

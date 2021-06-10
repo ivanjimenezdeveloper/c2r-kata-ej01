@@ -5,7 +5,7 @@ function App() {
   return (
     <ul className="lista">
       {circulos.map((circuloKey) => (
-        <Circulo key={circuloKey} />
+        <Circulo key={circuloKey} cantidad={circulos.length} />
       ))}
     </ul>
   );
